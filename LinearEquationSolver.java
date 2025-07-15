@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LinearEquationSolver {
+public final class LinearEquationSolver {
 
     private LinearEquationSolver(){}
 
