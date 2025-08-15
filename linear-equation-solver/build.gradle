@@ -1,3 +1,3 @@
 application {
-    mainClass = 'com.kitkoch.linear-equation-solver'
+  mainClass = 'com.kitkoch.linear-equation-solver'
 }

@@ -1,4 +1,4 @@
-package com.kitkoch;
+package com.kitkoch.geometry;
 
 import java.util.Scanner;
 
