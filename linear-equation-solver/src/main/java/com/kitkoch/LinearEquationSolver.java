@@ -1,3 +1,5 @@
+package com.kitkoch;
+
 import java.util.Scanner;
 
 public final class LinearEquationSolver {
