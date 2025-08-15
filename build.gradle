@@ -9,11 +9,17 @@ subprojects {
 
   group = "com.kitkoch.geometry"
   version = "1.0.0"
-  repositories { mavenCentral() }
+
+  repositories { 
+    mavenCentral() 
+  }
 
   dependencies {
     testImplementation platform("org.junit:junit-bom:5.10.2")
     testImplementation "org.junit.jupiter:junit-jupiter"
   }
-  tasks.test { useJUnitPlatform() }
+
+  tasks.test { 
+    useJUnitPlatform() 
+  }
 }

@@ -1,0 +1,3 @@
+application {
+  mainClass = 'com.kitkoch.two-lines-intersection-solver'
+}
