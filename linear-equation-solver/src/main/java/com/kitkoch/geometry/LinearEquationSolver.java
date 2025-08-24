@@ -10,7 +10,7 @@ public final class LinearEquationSolver {
 
     private static double promptDouble(Scanner input, String msg) {
         while(true) {
-            System.out.print(msg);
+            System.out.print("Please enter " + msg);
             if(input.hasNextDouble()) {
                 return input.nextDouble();
             } else {
@@ -36,12 +36,12 @@ public final class LinearEquationSolver {
 
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
-            double a = promptDouble(input, "Please enter a: ");
-            double b = promptDouble(input, "Please enter b: ");
-            double c = promptDouble(input, "Please enter c: ");
-            double d = promptDouble(input, "Please enter d: ");
-            double e = promptDouble(input, "Please enter e: ");
-            double f = promptDouble(input, "Please enter f: ");
+            double a = promptDouble(input, "a: ");
+            double b = promptDouble(input, "b: ");
+            double c = promptDouble(input, "c: ");
+            double d = promptDouble(input, "d: ");
+            double e = promptDouble(input, "e: ");
+            double f = promptDouble(input, "f: ");
             calculate(a, b, c, d, e, f);
         }
     }
