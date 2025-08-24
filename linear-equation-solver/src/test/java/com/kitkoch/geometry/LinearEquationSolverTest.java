@@ -1,4 +1,4 @@
-package test.java.com.kitkoch.geometry;
+package com.kitkoch.geometry;
 
 import static org.junit.jupiter.api.Assertions.*;
 
