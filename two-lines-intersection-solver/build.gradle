@@ -1,3 +1,18 @@
-application {
-  mainClass = 'com.kitkoch.two-lines-intersection-solver'
+plugins {
+  id 'java'
+  id 'application'
 }
+
+application {
+  mainClass = 'com.kitkoch.geometry.TwoLinesIntersectionSolver'
+}
+
+tasks.named('run', JavaExec) {
+  standardInput = System.in
+}
+
+dependencies {
+  testImplementation platform('org.junit:junit-bom:5.10.2')
+  testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+test { useJUnitPlatform() }
