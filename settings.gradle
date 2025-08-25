@@ -4,5 +4,6 @@ include(
         "two-lines-intersection-solver",
         "point-in-circle-checker",
         "point-in-rectangle-checker",
-        "triangle-perimeter-calculator"
+        "triangle-perimeter-calculator",
+        "random-coordinate-rectangle"
 )
