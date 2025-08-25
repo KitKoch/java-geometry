@@ -20,9 +20,11 @@ cd java-geometry
 ./gradlew :linear-equation-solver:test
 ./gradlew :two-lines-intersection:test
 ./gradlew :point-in-circle-checker:test  
+./gradlew :point-in-rectangle-checker:test  
 
 # run specific modules
 ./gradlew :linear-equation-solver:run --console=plain
 ./gradlew :two-lines-intersection:run --console=plain
 ./gradlew :point-in-circle-checker:run --console=plain
+./gradlew :point-in-rectangle-checker:run --console=plain
 
