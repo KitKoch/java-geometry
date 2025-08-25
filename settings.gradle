@@ -1,2 +1,2 @@
 rootProject.name = 'java-geometry'
-include("linear-equation-solver", "two-lines-intersection-solver")
+include("linear-equation-solver", "two-lines-intersection-solver", "point-in-circle-checker")
