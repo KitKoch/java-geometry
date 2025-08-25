@@ -8,6 +8,7 @@ standalone app with unit tests
 Cramer's rule
 - **linear-equation-solver** - solves a 2x2 linear system using **Cramer's rule**
 - **point-in-circle-checker** - checks if `(x, y)` lies inside a circle (any center/radius)
+- **point-in-rectangle-checker** - checks if `(x, y)` lies inside or on a rectangle (any center/width/height)
 
 ## Run
 ```bash
