@@ -7,7 +7,7 @@ standalone app with unit tests
 - **two-lines-intersection** - intersection of 2 infinite lines through
 Cramer's rule
 - **linear-equation-solver** - solves a 2x2 linear system using **Cramer's rule**
-- **point-in-circle-checker** - checks if `(x, y` lies inside a circle (any center/radius)
+- **point-in-circle-checker** - checks if `(x, y)` lies inside a circle (any center/radius)
 
 ## Run
 ```bash
