@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/linear-equation-solver" />
             <option value="$PROJECT_DIR$/point-in-circle-checker" />
             <option value="$PROJECT_DIR$/point-in-rectangle-checker" />
+            <option value="$PROJECT_DIR$/random-coordinate-rectangle" />
             <option value="$PROJECT_DIR$/triangle-perimeter-calculator" />
             <option value="$PROJECT_DIR$/two-lines-intersection-solver" />
           </set>

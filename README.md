@@ -4,12 +4,13 @@ Collection of small, **geometry** programs in Java. Each subobject is a
 standalone app with unit tests
 
 ## Modules
+- **linear-equation-solver** - solves a 2x2 linear system using **Cramer's rule**
 - **two-lines-intersection** - intersection of 2 infinite lines through
 **Cramer's rule**
-- **linear-equation-solver** - solves a 2x2 linear system using **Cramer's rule**
 - **point-in-circle-checker** - checks if `(x, y)` lies inside a circle (any center/radius)
 - **point-in-rectangle-checker** - checks if `(x, y)` lies inside or on a rectangle (any center/width/height)
 - **triangle-perimeter-calculator** - reads 3 edge lengths, validate if they can form a triangle
+- **random-coordinate-rectangle** - gives a random coordinate in a rectangle with center (0, 0) and any width/length
 
 ## Run
 ```bash
@@ -23,6 +24,7 @@ cd java-geometry
 ./gradlew :point-in-circle-checker:test  
 ./gradlew :point-in-rectangle-checker:test  
 ./gradlew :triangle-perimeter-calculator:test  
+./gradlew :random-coordinate-rectangle:test 
 
 # run specific modules
 ./gradlew :linear-equation-solver:run --console=plain
@@ -30,4 +32,5 @@ cd java-geometry
 ./gradlew :point-in-circle-checker:run --console=plain
 ./gradlew :point-in-rectangle-checker:run --console=plain
 ./gradlew :triangle-perimeter-calculator:run --console=plain
+./gradlew :random-coordinate-rectangle:run --console=plain
 
